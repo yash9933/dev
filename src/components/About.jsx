@@ -45,7 +45,7 @@ const About = () => {
         variants={fadeIn('','',0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a passionate software engineer, driven by curiosity and innovation. With a strong foundation in computer science and hands-on experience, I excel at crafting elegant solutions to complex problems, with a particular focus on developing web applications.
+        I'm a passionate Software Engineer, driven by curiosity and innovation. With a strong foundation in computer science and hands-on experience, I excel at crafting elegant solutions to complex problems, with a particular focus on developing web applications.
         <br/> I thrive in dynamic environments, leveraging diverse tools and methodologies to deliver high-quality software solutions. I'm committed to continuous learning and eager to contribute to innovative projects that push the boundaries of technology.
       </motion.p>
 

@@ -5,10 +5,12 @@ import { styles } from '../styles'
 import { experiences } from '../constants'
 import { SectionWrapper } from '../hoc'
 import { textVariant } from '../utils/motion'
+import { AiOutlineCodeSandbox } from "react-icons/ai";
+
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{background: '#1d1836', colr:'#fff'}}
+    contentStyle={{background: '#1d1836', colr:'#fff', width: '46%'}}
     contentArrowStyle={{borderRight: '7px solid #232631'}}
     date={experience.date}
     iconStyle={{background: experience.iconBg}}
