@@ -26,7 +26,7 @@ const Hero = () => {
                   "Developer",
                   "Learner",
                   "Student",
-                  "Mentor",
+                  "Teacher",
                 ]}
                 typeSpeed={50}
                 backSpeed={60}
