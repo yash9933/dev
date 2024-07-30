@@ -23,10 +23,10 @@ const Hero = () => {
             <span className='text-[#915EFF]'> {'{ '}</span>
               <ReactTyped
                 strings={[
-                  "Student",
                   "Developer",
-                  "Teacher",
-                  "Learner"
+                  "Learner",
+                  "Student",
+                  "Mentor",
                 ]}
                 typeSpeed={50}
                 backSpeed={60}

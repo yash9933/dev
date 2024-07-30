@@ -39,6 +39,14 @@ import {
       title: "Work",
     },
     {
+      id: "tech",
+      title: "Skills",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -58,7 +66,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Data Scientist",
       icon: creator,
     },
   ];
@@ -222,25 +230,29 @@ import {
   
   const projects = [
     {
-      name: "Model Earth",
+      name: "AI-Headshot Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " Developed an AI-driven app, orchestrating the training of AI data models for transforming sample images into professional headshots. Integrated secure authentication, with a user-friendly and data-protected experience.",
       tags: [
         {
-          name: "react",
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Leap AI",
           color: "green-text-gradient",
         },
         {
-          name: "api",
+          name: "vercel",
           color: "pink-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "black-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://ai-headshots-gen.vercel.app/",
     },
     {
       name: "Job IT",
@@ -252,38 +264,60 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind-css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "shadcn-ui",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://jobit-one.vercel.app/",
     },
     {
-      name: "Open Foot Print",
+      name: "Model Earth",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Model Earth is a platform integrates with major e-commerce and shipping systems, aiming to simplify user experience while maximizing positive environmental outcomes.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "python",
+          name: "jupyter",
           color: "green-text-gradient",
         },
         {
-          name: "supabase",
+          name: "api",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://model.earth/community/",
     },
+    
+    // {
+    //   name: "Open Foot Print",
+    //   description:
+    //     "The Open Footprint Project by Model Earth focuses on creating Environmental Product Declarations (EPDs) and footprint profiles for communities, companies, products, and individuals. They provide tools for lifecycle assessment and environmental impact analysis, helping communities and businesses make data-driven decisions to reduce their ecological footprint.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "python",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carrent,
+    //   source_code_link: "https://github.com/ModelEarth/OpenFootprint/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

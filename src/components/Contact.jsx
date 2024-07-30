@@ -1,12 +1,11 @@
 import React, { useRef, useState } from "react";
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-
+import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   const formRef = useRef();
@@ -24,7 +23,6 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-
     setForm({
       ...form,
       [name]: value,
@@ -116,9 +114,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -137,9 +133,6 @@ const Contact = () => {
           <a href="https://github.com/yash9933" className="mx-2" target="_blank" rel="noopener noreferrer">
             <FaGithub size={26} color='white' />
           </a>
-          {/* <a href="https://leetcode.com/EliteYash/" className="mx-2" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={26} />
-          </a> */}
         </div>
 
         <form
@@ -155,9 +148,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                !validInputs.name ? "border-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${!validInputs.name ? "border-red-500" : ""}`}
             />
             {!validInputs.name && (
               <span className="text-red-500">Please enter your name.</span>
@@ -171,9 +162,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your e-mail address?"
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                !validInputs.email ? "border-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${!validInputs.email ? "border-red-500" : ""}`}
             />
             {!validInputs.email && (
               <span className="text-red-500">Please enter a valid e-mail address.</span>
@@ -187,9 +176,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${
-                !validInputs.message ? "border-red-500" : ""
-              }`}
+              className={`bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium ${!validInputs.message ? "border-red-500" : ""}`}
             />
             {!validInputs.message && (
               <span className="text-red-500">Please enter your message (minimum 5 characters).</span>

@@ -65,8 +65,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Passionate about continual learning, I view projects as opportunities for exploration and growth. From personal portfolio websites to e-commerce platforms and data visualization dashboards, each endeavor allows me to
-          delve into new technologies, refine skills, and tackle diverse challenges. With every project completed, I expand my technical expertise while making meaningful contributions to software engineering.
+          Passionate about continual learning, I view projects as opportunities for exploration and growth. From AI projects, job board, and global environmental sustainability projects to e-commerce platforms and data visualization dashboards. With every project completed, I expand my technical expertise while making meaningful contributions to software engineering.
         </motion.p>
       </div>
 
@@ -83,4 +82,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
