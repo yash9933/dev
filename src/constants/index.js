@@ -58,16 +58,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Full Stack Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
     },
     {
       title: "Data Scientist",
       icon: creator,
+    },
+    {
+      title: "DevOps Engineer",
+      icon: backend,
     },
   ];
   
@@ -140,12 +140,24 @@ import {
       company_name: "DreamStudio Model.Earth",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "June 2024 - Present",
+      date: "July 2024 - Present",
       points: [
-        "Migrated complex search logic from a monolithic system to a distributed microservices architecture handling thousands of requests per day using Java Spring Boot, Redis, Kubernetes, and AWS.",
+        "Migrated complex search logic from a monolithic system to a distributed microservices architecture handling thousands of requests per day using Java Spring Boot, Docker, Redis, Kubernetes, and AWS.",
         "Implemented automated unit testing, successfully enforcing an 80% code coverage and 100% pass rate.",
-        "Established CI/CD pipelines to fetch daily changes from API by setting up GitHub Actions.",
+        "Established CI/CD pipelines to fetch daily changes from API using GitHub Actions and Docker, reducing deployment times and enhancing release quality.",
         "Identified and resolved numerous critical production bugs showcasing excellent debugging skills."
+      ],
+    },
+    {
+      title: "Software Automation Engineer",
+      company_name: "Tarpon Health",
+      icon: starbucks,
+      iconBg: "#FFFFFF",
+      date: "April 2023 - June 2024",
+      points: [
+        "Developed and deployed end-to-end automated workflows using UI Path to streamline repetitive tasks, increasing healthcare system's operational efficiency by 23%.",
+        "Designed and implemented RPA bots for automating key business processes, ensuring accuracy and compliance.",
+        "Slashed troubleshooting time by 40%, improved code quality, implemented MVC and advanced IDE tools."
       ],
     },
     {
@@ -153,12 +165,12 @@ import {
       company_name: "Global Shala",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "April 2023 - June 2023",
+      date: "January 2023 - March 2023",
       points: [
         "Elevated revenue by 11% by managing workflow of a team of 10 members through entire Software development Life Cycle (SDLC) in developing AI chatbots.",
+        "Designed and deployed a new feature using React.js, GraphQL and TypeScript, increasing user engagement by 15%.",
+        "Yielded productivity improvement, provided technical support through Terraform and AWS (Lambda and EC3) to ensure effective completion of all goals.",
         "Assimilated several project management artifacts - RACI charts, project charter, Risk matrix, work breakdown structure.",
-        "Slashed troubleshooting time by 40%, improved code quality, implemented MVC and advanced IDE tools.",
-        "Yielded productivity improvement, provided technical support through Terraform and AWS (Lambda and EC3) to ensure effective completion of all goals."
       ],
     },
     {
@@ -186,19 +198,6 @@ import {
         "Boosted software production by educating freshman regarding cloud and core technology."
       ],
     }
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
