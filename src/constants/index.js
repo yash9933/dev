@@ -62,11 +62,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Data Scientist",
+      title: "Photographer",
       icon: creator,
     },
     {
-      title: "DevOps Engineer",
+      title: "AI Enthusiast",
       icon: backend,
     },
   ];
