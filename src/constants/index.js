@@ -137,40 +137,15 @@ import {
   const experiences = [
     {
       title: "Software Engineer",
-      company_name: "DreamStudio Model.Earth",
+      company_name: "JP Morgan Chase",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "July 2024 - Present",
+      date: "October 2023 - Present",
       points: [
-        "Migrated complex search logic from a monolithic system to a distributed microservices architecture handling thousands of requests per day using Java Spring Boot, Docker, Redis, Kubernetes, and AWS.",
-        "Implemented automated unit testing, successfully enforcing an 80% code coverage and 100% pass rate.",
-        "Established CI/CD pipelines to fetch daily changes from API using GitHub Actions and Docker, reducing deployment times and enhancing release quality.",
-        "Identified and resolved numerous critical production bugs showcasing excellent debugging skills."
-      ],
-    },
-    {
-      title: "Software Automation Engineer",
-      company_name: "Tarpon Health",
-      icon: starbucks,
-      iconBg: "#FFFFFF",
-      date: "April 2023 - June 2024",
-      points: [
-        "Developed and deployed end-to-end automated workflows using UI Path to streamline repetitive tasks, increasing healthcare system's operational efficiency by 23%.",
-        "Designed and implemented RPA bots for automating key business processes, ensuring accuracy and compliance.",
-        "Slashed troubleshooting time by 40%, improved code quality, implemented MVC and advanced IDE tools."
-      ],
-    },
-    {
-      title: "Software Engineer Intern",
-      company_name: "Global Shala",
-      icon: starbucks,
-      iconBg: "#FFFFFF",
-      date: "January 2023 - March 2023",
-      points: [
-        "Elevated revenue by 11% by managing workflow of a team of 10 members through entire Software development Life Cycle (SDLC) in developing AI chatbots.",
-        "Designed and deployed a new feature using React.js, GraphQL and TypeScript, increasing user engagement by 15%.",
-        "Yielded productivity improvement, provided technical support through Terraform and AWS (Lambda and EC3) to ensure effective completion of all goals.",
-        "Assimilated several project management artifacts - RACI charts, project charter, Risk matrix, work breakdown structure.",
+        "Designed and implemented the integration of 50+ legacy systems into a centralized MATRIX web platform, improving operational efficiency by 35% and enhancing workflow automation.",
+        "Developed and tested React and JSON-based web services using Redux, Docker and Kubernetes, improving system interoperability and reducing service response time by 40%.",
+        "Served as a Scrum Master, facilitating Agile development processes with daily stand-ups and sprint planning, improving team productivity by 20% and ensuring on-time project delivery.",
+        "Optimized database performance by implementing ORM models using Hibernate and iBatis, reducing query execution time by 25% and improving data retrieval efficiency."
       ],
     },
     {
@@ -186,19 +161,97 @@ import {
       ],
     },
     {
-      title: "Software Engineer",
+      title: "Software Developer",
       company_name: "Decimal Technolgies",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "August 2020 - July 2022",
+      date: "August 2021 - July 2022",
       points: [
         "Developed high-scale production grade financial (Fintech) web & mobile applications using React, Java Spring Boot, REST APIs and Salesforce as a part of cross-functional software team.",
         "Elevated user experience by 20% through timely delivery of major SaaS project milestones, fixing crucial bugs, and optimizing performance across 4 teams.",
         "Enhanced systems performance by 13% in 8 months, wrote and optimized SQL queries for data retrievals.",
+        "Worked in an Agile environment, actively participating in sprint planning, daily stand-ups, and retrospectives, which improved project tracking and team productivity by 20%."
+      ],
+    },
+    {
+      title: "Associate Software Engineer",
+      company_name: "Decimal Technolgies",
+      icon: starbucks,
+      iconBg: "#FFFFFF",
+      date: "August 2020 - July 2021",
+      points: [
+        "Contributed to all phases of the Software Development Life Cycle (SDLC), from requirements gathering and system design to deployment and maintenance, ensuring on-time delivery of software features.",
+        "Designed and optimized database schemas using SQL and Hibernate ORM, enhancing data retrieval efficiency by 30% and ensuring seamless data management.",
+        "Collaborated with front-end teams using React and Angular, successfully integrating RESTful APIs to ensure a consistent and smooth user experience.",
         "Boosted software production by educating freshman regarding cloud and core technology."
       ],
     }
   ];
+  // const experiences = [
+  //   {
+  //     title: "Software Engineer",
+  //     company_name: "DreamStudio Model.Earth",
+  //     icon: starbucks,
+  //     iconBg: "#FFFFFF",
+  //     date: "July 2024 - Present",
+  //     points: [
+  //       "Migrated complex search logic from a monolithic system to a distributed microservices architecture handling thousands of requests per day using Java Spring Boot, Docker, Redis, Kubernetes, and AWS.",
+  //       "Implemented automated unit testing, successfully enforcing an 80% code coverage and 100% pass rate.",
+  //       "Established CI/CD pipelines to fetch daily changes from API using GitHub Actions and Docker, reducing deployment times and enhancing release quality.",
+  //       "Identified and resolved numerous critical production bugs showcasing excellent debugging skills."
+  //     ],
+  //   },
+  //   {
+  //     title: "Software Automation Engineer",
+  //     company_name: "Tarpon Health",
+  //     icon: starbucks,
+  //     iconBg: "#FFFFFF",
+  //     date: "April 2023 - June 2024",
+  //     points: [
+  //       "Developed and deployed end-to-end automated workflows using UI Path to streamline repetitive tasks, increasing healthcare system's operational efficiency by 23%.",
+  //       "Designed and implemented RPA bots for automating key business processes, ensuring accuracy and compliance.",
+  //       "Slashed troubleshooting time by 40%, improved code quality, implemented MVC and advanced IDE tools."
+  //     ],
+  //   },
+  //   {
+  //     title: "Software Engineer Intern",
+  //     company_name: "Global Shala",
+  //     icon: starbucks,
+  //     iconBg: "#FFFFFF",
+  //     date: "January 2023 - March 2023",
+  //     points: [
+  //       "Elevated revenue by 11% by managing workflow of a team of 10 members through entire Software development Life Cycle (SDLC) in developing AI chatbots.",
+  //       "Designed and deployed a new feature using React.js, GraphQL and TypeScript, increasing user engagement by 15%.",
+  //       "Yielded productivity improvement, provided technical support through Terraform and AWS (Lambda and EC3) to ensure effective completion of all goals.",
+  //       "Assimilated several project management artifacts - RACI charts, project charter, Risk matrix, work breakdown structure.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Graduate Teaching Assistant",
+  //     company_name: "Illinois Institute of Technology",
+  //     icon: starbucks,
+  //     iconBg: "#FFFFFF",
+  //     date: "January 2023 - April 2024",
+  //     points: [
+  //       "Empowered students to grasp and apply object-oriented programming (OOP) concepts, System Design, and Object Analysis and Design (OOAD) in Java.",
+  //       "Transformed 200+ students into Java wizards, orchestrating a 30% surge in assignment scores through hands-on and engaging instructions.",
+  //       "Spearheaded practical sessions, propelling students to excel in developing, deployment, debugging, and unit testing leading to a 30% decrease in bug rates and a 15% increase in code quality scores."
+  //     ],
+  //   },
+  //   {
+  //     title: "Software Engineer",
+  //     company_name: "Decimal Technolgies",
+  //     icon: starbucks,
+  //     iconBg: "#FFFFFF",
+  //     date: "August 2020 - July 2022",
+  //     points: [
+  //       "Developed high-scale production grade financial (Fintech) web & mobile applications using React, Java Spring Boot, REST APIs and Salesforce as a part of cross-functional software team.",
+  //       "Elevated user experience by 20% through timely delivery of major SaaS project milestones, fixing crucial bugs, and optimizing performance across 4 teams.",
+  //       "Enhanced systems performance by 13% in 8 months, wrote and optimized SQL queries for data retrievals.",
+  //       "Boosted software production by educating freshman regarding cloud and core technology."
+  //     ],
+  //   }
+  // ];
   
   const testimonials = [
     {
